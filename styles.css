@@ -4,4 +4,34 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Oswald", sans-serif;
+  background: aliceblue;
+}
+
+.main-menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.settings {
+  width: 5%;
+  position: fixed;
+  top: 10px;
+  right: 10px;
+}
+
+.logo {
+  width: 40%;
+}
+
+.start-btn {
+  padding: 10px 30px;
+  font-size: 400%;
+  font-family: "Oswald";
+  background: lightgreen;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
 }
