@@ -8,7 +8,6 @@
     <link rel="shortcut icon" href="./pics/brain.png" type="image/x-icon" />
     <link rel="stylesheet" href="./styles/main.css" />
     <link rel="stylesheet" href="./styles/settings.css" />
-    <script src="app.js" defer></script>
   </head>
   <body>
     <section class="settings-main-menu">
@@ -16,9 +15,25 @@
         <button class="back-to-menu-btn">Back</button>
       </a>
       <form>
-        <label for="fontSize"></label>
-        <input type="number" id="fontSize" />
+        <div>
+          <label for="fontSize">Rozmiar czcionki:</label>
+          <input type="number" id="fontSize" />
+        </div>
+        <div>
+          <label for="themeSelector">Wybierz motyw strony:</label>
+          <input type="checkbox" id="themeSelector" />
+        </div>
+        <div>
+          <label for="difficulty">Wybierz trudność pytań</label>
+          <select id="difficulty">
+            <option value="Easy">Łatwe</option>
+            <option value="Medium">Średnie</option>
+            <option value="Hard">Trudne</option>
+          </select>
+        </div>
       </form>
     </section>
+    <script src="./JavaScript/app.js"></script>
+    <script src="./JavaScript/questions.js"></script>
   </body>
 </html>

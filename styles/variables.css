@@ -1,0 +1,4 @@
+:root {
+  --box-shadow: 1px 0px 5px rgb(170, 170, 170);
+  --tran: all 0.25s ease-in-out;
+}
